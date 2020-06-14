@@ -1,0 +1,981 @@
+<!DOCTYPE html>
+<!-- saved from url=(0075)https://ent-exam.jinshujuapp.com/liulishuo/papers/4017/exam_results/1205187 -->
+<html data-blockbyte-bs-uid="105025"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<script type="text/javascript" src="./流利阅读 5.06--5.12 小测试_files/383240907d"></script><script src="./流利阅读 5.06--5.12 小测试_files/nr-1123.min.js.下载"></script><script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"383240907d","applicationID":"46050814","transactionName":"dQlXRRFcDQ9SEE1WTVcLZkMGQBQPQxFNQF1ZEQ==","queueTime":0,"applicationTime":255,"agent":""}</script>
+<script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(3),u=e(4),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}catch(e){throw f.emit("fn-err",[arguments,this,e],t),e}finally{f.emit("fn-end",[c.now()],t)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e,n){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now(),!1,n])}},{}],2:[function(e,n,t){function r(e,n){if(!o)return!1;if(e!==o)return!1;if(!n)return!0;if(!i)return!1;for(var t=i.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==t[a])return!1;return!0}var o=null,i=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var u=navigator.userAgent,f=u.match(a);f&&u.indexOf("Chrome")===-1&&u.indexOf("Chromium")===-1&&(o="Safari",i=f[1])}n.exports={agent:o,version:i,match:r}},{}],3:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],4:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],5:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=v(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){h[e]=v(e).concat(n)}function m(e,n){var t=h[e];if(t)for(var r=0;r<t.length;r++)t[r]===n&&t.splice(r,1)}function v(e){return h[e]||[]}function g(e){return p[e]=p[e]||o(t)}function w(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var h={},y={},b={on:l,addEventListener:l,removeEventListener:m,emit:t,get:g,listeners:v,context:n,buffer:w,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(3),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!E++){var e=x.info=NREUM.info,n=l.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+x.offset],null,"api");var t=l.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===l.readyState&&i()}function i(){f("mark",["domContent",a()+x.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-x.offset}var u=(new Date).getTime(),f=e("handle"),c=e(3),s=e("ee"),p=e(2),d=window,l=d.document,m="addEventListener",v="attachEvent",g=d.XMLHttpRequest,w=g&&g.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:g,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var h=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1123.min.js"},b=g&&w&&w[m]&&!/CriOS/.test(navigator.userAgent),x=n.exports={offset:u,now:a,origin:h,features:{},xhrWrappable:b,userAgent:p};e(1),l[m]?(l[m]("DOMContentLoaded",i,!1),d[m]("load",r,!1)):(l[v]("onreadystatechange",o),d[v]("onload",r)),f("mark",["firstbyte",u],null,"api");var E=0,O=e(5)},{}]},{},["loader"]);</script>
+	<title>流利阅读 5.06--5.12 小测试</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<link rel="shortcut icon" type="image/x-icon" href="https://ent-exam.jinshujuapp.com/assets/favicon-15eb5c9357f365816817edf23a0cf38d73edcac9b1094f429477550f1f004453.ico">
+	<link rel="stylesheet" media="screen" href="./流利阅读 5.06--5.12 小测试_files/exam_result-86c871c9b874f877fdad8b261ac0d7e25af8319947fe09d86250a0f9c17a5ba0.css">
+	<script src="./流利阅读 5.06--5.12 小测试_files/exam_result-6ca7b1f07759dd9fbe9d46f133c0f55711eb4550d66c2876afac24054d3e508c.js.下载"></script><style type="text/css" abt="234"></style>
+	<meta name="csrf-param" content="authenticity_token">
+<meta name="csrf-token" content="wzvRHeu3LaTz0Qo1eNu2Pxmeg2vkHvw1WaLKUYl4rMVC+q7katlnjhDTiFDzMpf9wf4H5P1REBhKoCoz85dE0A==">
+<style id="707ab499-dc72-4f28-8de9-9b9f7ae42756">.pb-toast-main {
+  z-index: 2147483639 !important;
+  position: fixed !important;
+  top: -50px !important;
+  left: 0px !important;
+  width: 100% !important;
+  height: 44px !important;
+  border: none !important;
+  box-shadow: 0 1px 0 0 #b6b4b6 !important;
+  transition: top 0.3s;
+}
+
+.pb-toast-main-move {
+  top: 0px !important;
+}
+
+.pb-toast-main-show {
+  transition: none;
+  top: 0px !important;
+}
+
+
+
+#pb_jq_tipsWrapper {
+  position: fixed !important;
+  width: 230px !important;
+  background-color: rgba(0, 0, 0, 0.8);
+  box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.2);
+  font-family: "Lucida Grande", tahoma, verdana, arial, sans-serif !important;
+  border-radius: 5px !important;
+  color: #ffffff !important;
+  z-index: 2147483641 !important;
+  padding: 15px !important;
+  font-size: 14px !important;
+}
+
+#pb_jq_tipsWrapper:before {
+  position: absolute !important;
+  top: -10px !important;
+  right: 60px !important;
+  display: inline-block !important;
+  border-right: 10px solid transparent !important;
+  border-bottom: 10px solid #000 !important;
+  border-left: 10px solid transparent !important;
+  border-bottom-color: rgba(0, 0, 0, 0.2) !important;
+  content: '' !important;
+}
+
+#pb_jq_tipsWrapper:after {
+  position: absolute !important;
+  top: -9px !important;
+  right: 60px !important;
+  display: inline-block !important;
+  border-right: 9px solid transparent !important;
+  border-bottom: 9px solid #000 !important;
+  border-left: 9px solid transparent !important;
+  content: '' !important;
+}
+
+#pb-link-copied-message {
+  display: none;
+  position: fixed;
+  width: 90px;
+  height: 29px;
+  opacity: 0;
+  border-radius: 100px;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 2147483641;
+  font-family: "Lucida Grande", tahoma, verdana, arial, sans-serif !important;
+  font-size: 13px;
+  line-height: 29px;
+  text-align: center;
+  color: #ffffff;
+}</style><script>//remove 17173 video ad
+doAdblock();
+function doAdblock(){
+    (function() {
+        function A() {}
+        A.prototype = {
+            rules: {
+                '17173_in':{
+                    'find':/http:\/\/f\.v\.17173cdn\.com\/(\d+\/)?flash\/PreloaderFile(Customer)?\.swf/,
+                    'replace':"http://swf.adtchrome.com/17173_in_20150522.swf"
+                },
+                '17173_out':{
+                    'find':/http:\/\/f\.v\.17173cdn\.com\/(\d+\/)?flash\/PreloaderFileFirstpage\.swf/,
+                    'replace':"http://swf.adtchrome.com/17173_out_20150522.swf"
+                },
+                '17173_live':{
+                    'find':/http:\/\/f\.v\.17173cdn\.com\/(\d+\/)?flash\/Player_stream(_firstpage)?\.swf/,
+                    'replace':"http://swf.adtchrome.com/17173_stream_20150522.swf"
+                },
+                '17173_live_out':{
+                    'find':/http:\/\/f\.v\.17173cdn\.com\/(\d+\/)?flash\/Player_stream_(custom)?Out\.swf/,
+                    'replace':"http://swf.adtchrome.com/17173.out.Live.swf"
+                }
+            },
+            _done: null,
+            get done() {
+                if(!this._done) {
+                    this._done = new Array();
+                }
+                return this._done;
+            },
+            addAnimations: function() {
+                var style = document.createElement('style');
+                style.type = 'text/css';
+                style.innerHTML = 'object,embed{\
+                -webkit-animation-duration:.001s;-webkit-animation-name:playerInserted;\
+                -ms-animation-duration:.001s;-ms-animation-name:playerInserted;\
+                -o-animation-duration:.001s;-o-animation-name:playerInserted;\
+                animation-duration:.001s;animation-name:playerInserted;}\
+                @-webkit-keyframes playerInserted{from{opacity:0.99;}to{opacity:1;}}\
+                @-ms-keyframes playerInserted{from{opacity:0.99;}to{opacity:1;}}\
+                @-o-keyframes playerInserted{from{opacity:0.99;}to{opacity:1;}}\
+                @keyframes playerInserted{from{opacity:0.99;}to{opacity:1;}}';
+                document.getElementsByTagName('head')[0].appendChild(style);
+            },
+            animationsHandler: function(e) {
+                if(e.animationName === 'playerInserted') {
+                    this.replace(e.target);
+                }
+            },
+            replace: function(elem) {
+                if(this.done.indexOf(elem) != -1) return;
+                this.done.push(elem);
+                var player = elem.data || elem.src;
+                if(!player) return;
+                var i, find, replace = false;
+                for(i in this.rules) {
+                    find = this.rules[i]['find'];
+                    if(find.test(player)) {
+                        replace = this.rules[i]['replace'];
+                        if('function' === typeof this.rules[i]['preHandle']) {
+                            this.rules[i]['preHandle'].bind(this, elem, find, replace, player)();
+                        }else{
+                            this.reallyReplace.bind(this, elem, find, replace)();
+                        }
+                        break;
+                    }
+                }
+            },
+            reallyReplace: function(elem, find, replace) {
+                elem.data && (elem.data = elem.data.replace(find, replace)) || elem.src && ((elem.src = elem.src.replace(find, replace)) && (elem.style.display = 'block'));
+                var b = elem.querySelector("param[name='movie']");
+                this.reloadPlugin(elem);
+            },
+            reloadPlugin: function(elem) {
+                var nextSibling = elem.nextSibling;
+                var parentNode = elem.parentNode;
+                parentNode.removeChild(elem);
+                var newElem = elem.cloneNode(true);
+                this.done.push(newElem);
+                if(nextSibling) {
+                    parentNode.insertBefore(newElem, nextSibling);
+                } else {
+                    parentNode.appendChild(newElem);
+                }
+            },
+            init: function() {
+                var handler = this.animationsHandler.bind(this);
+                document.body.addEventListener('webkitAnimationStart', handler, false);
+                document.body.addEventListener('msAnimationStart', handler, false);
+                document.body.addEventListener('oAnimationStart', handler, false);
+                document.body.addEventListener('animationstart', handler, false);
+                this.addAnimations();
+            }
+        };
+        new A().init();
+    })();
+}
+//remove baidu search ad
+if(document.URL.indexOf('www.baidu.com') >= 0){
+    if(document && document.getElementsByTagName && document.getElementById && document.body){
+        var aa = function(){
+            var all = document.body.querySelectorAll("#content_left div,#content_left table");
+            for(var i = 0; i < all.length; i++){
+                if(/display:\s?(table|block)\s!important/.test(all[i].getAttribute("style"))){all[i].style.display= "none";all[i].style.visibility='hidden';}
+            }
+            all = document.body.querySelectorAll('.result.c-container[id="1"]');
+            //if(all.length == 1) return;
+            for(var i = 0; i < all.length; i++){
+                if(all[i].innerHTML && all[i].innerHTML.indexOf('广告')>-1){
+                    all[i].style.display= "none";all[i].style.visibility='hidden';
+                }
+            }
+        }
+        aa();
+        document.getElementById('wrapper_wrapper').addEventListener('DOMSubtreeModified',aa)
+    };
+}
+//remove sohu video ad
+if (document.URL.indexOf("tv.sohu.com") >= 0){
+    if (document.cookie.indexOf("fee_status=true")==-1){document.cookie='fee_status=true'};
+}
+//remove 56.com video ad
+if (document.URL.indexOf("56.com") >= 0){
+    if (document.cookie.indexOf("fee_status=true")==-1){document.cookie='fee_status=true'};
+}
+//fore iqiyi enable html5 player function
+if (document.URL.indexOf("iqiyi.com") >= 0){
+    if (document.cookie.indexOf("player_forcedType=h5_VOD")==-1){
+        document.cookie='player_forcedType=h5_VOD'
+        if(localStorage.reloadTime && Date.now() - parseInt(localStorage.reloadTime)<60000){
+            console.log('no reload')
+        }else{
+            location.reload()
+            localStorage.reloadTime = Date.now();
+        }
+    }
+}
+</script><style type="text/css">object,embed{                -webkit-animation-duration:.001s;-webkit-animation-name:playerInserted;                -ms-animation-duration:.001s;-ms-animation-name:playerInserted;                -o-animation-duration:.001s;-o-animation-name:playerInserted;                animation-duration:.001s;animation-name:playerInserted;}                @-webkit-keyframes playerInserted{from{opacity:0.99;}to{opacity:1;}}                @-ms-keyframes playerInserted{from{opacity:0.99;}to{opacity:1;}}                @-o-keyframes playerInserted{from{opacity:0.99;}to{opacity:1;}}                @keyframes playerInserted{from{opacity:0.99;}to{opacity:1;}}</style><style class="blockbyte-bs-style" data-name="content">body>div#blockbyte-bs-indicator>div{opacity:0;pointer-events:none}body>iframe#blockbyte-bs-sidebar.blockbyte-bs-visible,body>iframe#blockbyte-bs-overlay.blockbyte-bs-visible{opacity:1;pointer-events:auto}body.blockbyte-bs-noscroll{overflow:hidden !important}body>div#blockbyte-bs-indicator>div{position:absolute;transform:translate3d(-40px, 0, 0);top:0;left:0;width:40px !important;height:100%;background:rgba(0,0,0,0.5);border-radius:0 10px 10px 0;transition:opacity 0.3s, transform 0.3s;z-index:2}body>div#blockbyte-bs-indicator>div>span{-webkit-mask:no-repeat center/32px;-webkit-mask-image:url(chrome-extension://jdbnofccmhefkmjbkkdkfiicjkgofkdh/img/icon-bookmark.svg);background-color:#ffffff;position:absolute;display:block;top:0;left:0;width:100%;height:100%}body>div#blockbyte-bs-indicator[data-pos='right']{left:auto;right:0}body>div#blockbyte-bs-indicator[data-pos='right']>div{transform:translate3d(40px, 0, 0);left:auto;right:0;border-radius:10px 0 0 10px}body>div#blockbyte-bs-indicator.blockbyte-bs-fullHeight>div{border-radius:0}body>div#blockbyte-bs-indicator.blockbyte-bs-hover>div{transform:translate3d(0, 0, 0);opacity:1}body>div#blockbyte-bs-indicator[data-pos='left'].blockbyte-bs-has-lsb{height:100% !important;top:0 !important}body>div#blockbyte-bs-indicator[data-pos='left'].blockbyte-bs-has-lsb>div{background:transparent}body>div#blockbyte-bs-indicator[data-pos='left'].blockbyte-bs-has-lsb>div>span{-webkit-mask-position-y:20px}body>iframe#blockbyte-bs-sidebar{width:350px;max-width:none;height:0;z-index:2147483646;background-color:rgba(255,255,255,0.8) !important;border:none;display:block !important;transform:translate3d(-350px, 0, 0);transition:width 0s 0.3s, height 0s 0.3s, opacity 0.3s, transform 0.3s}body>iframe#blockbyte-bs-sidebar[data-pos='right']{left:auto;right:0;transform:translate3d(350px, 0, 0)}body>iframe#blockbyte-bs-sidebar.blockbyte-bs-visible{width:calc(100% + 350px);height:100%;transform:translate3d(0, 0, 0);transition:opacity 0.3s, transform 0.3s}body>iframe#blockbyte-bs-sidebar.blockbyte-bs-hideMask{background:none !important}body>iframe#blockbyte-bs-sidebar.blockbyte-bs-hideMask:not(.blockbyte-bs-hover){width:calc(350px + 50px)}body>iframe#blockbyte-bs-overlay{width:100%;max-width:none;height:100%;z-index:2147483647;border:none;background:rgba(0,0,0,0.5) !important;transition:opacity 0.3s}
+</style></head><remove-web-limits-iqxin id="rwl-iqxin" class="rwl-exempt" style="position: fixed; top: 1px; left: 0px;"><button type="button" id="rwl-setbtn"> set </button> <lalala style="cursor:move;">限制解除</lalala> <input type="checkbox" name="" id="black_node"><style type="text/css">#rwl-iqxin{position:fixed;transform:translate(-90px,0);width:85px;height:25px;font-size:12px;font-weight: 500;font-family:Verdana, Arial, '宋体';color:#fff;background:#333;z-index:2147483647;margin: 0;opacity:0.05;transition:0.3s;overflow:hidden;user-select:none;text-align:center;white-space:nowrap;line-height:25px;padding:0 16px;border:1px solid #ccc;border-width:1px 1px 1px 0;border-bottom-right-radius:5px;box-sizing: content-box;}#rwl-iqxin input{margin: 0;padding: 0;vertical-align:middle;-webkit-appearance:checkbox;-moz-appearance:checkbox;position: static;clip: auto;opacity: 1;cursor: pointer;}#rwl-iqxin.rwl-active-iqxin{left: 0px;transform:translate(0,0);opacity: 0.9;height: 32px;line-height: 32px}#rwl-iqxin label{margin:0;padding:0;font-weight:500;}#rwl-iqxin button{margin: 0;padding: 0 2px;border: none;border-radius: 2px;cursor: pointer;}#rwl-setMenu{text-align:left;font-size:14px;z-index:999999;border: 1px solid cornflowerblue;}#rwl-setMenu p{margin:5px auto;} </style></remove-web-limits-iqxin>
+<body class="">
+  <div style="display:none;">
+    <img src="./流利阅读 5.06--5.12 小测试_files/logo-e9daa428206cc04d805ab323d6f2e5a9aee1605eecde049fd534e68b086aeb3e.png" alt="Logo">
+  </div>
+  <div class="exams-result-container">
+  <div class="container user-exams-result" id="user_exam_result">
+    <div class="content-section ">
+      <div class="section-body">
+          <div class="exam-base-info">
+      <div class="row">
+        <div class="text-center paper-name paper-name-on-pc" style="width: 578px; margin-left: 128px;">
+          <span>流利阅读 5.06--5.12 小测试</span>
+        </div>
+        <div class="col-md-12 col-sm-12 col-lg-12 text-center">
+          <span class="user-name user-info">你的昵称：兮，一切空白</span>
+          <span class="exam-cast-time user-info gd-hide">用时：-</span>
+          <span class="exam-score user-info">题数：10</span>
+        </div>
+        <div class="col-md-12 col-sm-12 col-lg-12 text-center bind-fields">
+        </div>
+      </div>
+      <div class="exam-score-container exam-score-container-with-answer">
+        <div class="score-value" style="font-size: 40px;">
+          <label>100</label>
+        </div>
+      </div>
+</div>
+          <div class="exam-question-container">
+      <div class="single-choice-component">
+	<div class="content-section exam-content-section">
+      <div class="section-header exam-section-header">
+        <div class="row">
+          <div class="col-md-11 col-sm-11 col-lg-11 col-xs-11">
+            <strong class="question-title">1.（词汇知识）在宇轩老师周一讲解的关于做梦的新闻中，请选用一项完成句子：When we dream, the logic centres of our brain will _____. </strong>
+          </div>
+          <div class="col-md-1 col-sm-1 col-lg-1 col-xs-1">
+            <div class="pull-right answer-control">
+              <span class="actual-score">+10</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section-body">
+        <div class="field field-radio-button ">
+          <div class="form-group">
+            <div class="field-content">
+              <div class="choices">
+                    <label class="radio ">
+                      <div class="radio-button-wrapper disabled exam-question-disabled">
+                        <input value="N9fS" type="radio" name="radio_field_5" checked="" class="disabled">
+                        <i class="selected-icon light-border-select-icon"></i>
+                      </div>
+                      <span>A. go dark</span>
+                        <span class="label pull-right answer-label gd-label-thin label-success">正确答案</span>
+                    </label>
+                    <label class="radio ">
+                      <div class="radio-button-wrapper disabled ">
+                        <input value="Apw6" type="radio" name="radio_field_5" class="disabled">
+                        <i class="selected-icon light-border-select-icon"></i>
+                      </div>
+                      <span>B. light up</span>
+                    </label>
+                    <label class="radio ">
+                      <div class="radio-button-wrapper disabled ">
+                        <input value="oqN8" type="radio" name="radio_field_5" class="disabled">
+                        <i class="selected-icon light-border-select-icon"></i>
+                      </div>
+                      <span>C. drop</span>
+                    </label>
+                    <label class="radio ">
+                      <div class="radio-button-wrapper disabled ">
+                        <input value="GlEv" type="radio" name="radio_field_5" class="disabled">
+                        <i class="selected-icon light-border-select-icon"></i>
+                      </div>
+                      <span>D. increase</span>
+                    </label>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="field field-text-field">
+          <div class="score-base-info">
+            <span>满分: 10分 得分: 10.0</span>
+          </div>
+          <div class="form-group answer-desc">
+            <div class="field-label-container">
+              <span class="field-label title">答案解析</span>
+            </div>
+            <div class="field-content">
+              <p></p><p>go dark 表示“进入休眠；关闭”，light up 表示“照亮；发光；激活”，drop 表示“掉下；降低”，increase 表示“增加；增强”，这句话出自于文中第三段，意思是“当我们做梦时，我们大脑的逻辑中枢会进入休眠状态”，故 A 选项正确。</p>
+<p></p>
+            </div>
+          </div>
+        </div>
+      </div>
+	</div>
+</div>
+
+      
+      
+      <div class="single-choice-component">
+	<div class="content-section exam-content-section">
+      <div class="section-header exam-section-header">
+        <div class="row">
+          <div class="col-md-11 col-sm-11 col-lg-11 col-xs-11">
+            <strong class="question-title">2.（篇章理解）在 Lala 老师周二讲解的关于“高空芭比”新闻中，Norwegian Air 出台的一系列针对装束和妆容的规定，文中没有提到下列哪一项？  </strong>
+          </div>
+          <div class="col-md-1 col-sm-1 col-lg-1 col-xs-1">
+            <div class="pull-right answer-control">
+              <span class="actual-score">+10</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section-body">
+        <div class="field field-radio-button ">
+          <div class="form-group">
+            <div class="field-content">
+              <div class="choices">
+                    <label class="radio ">
+                      <div class="radio-button-wrapper disabled ">
+                        <input value="D9oc" type="radio" name="radio_field_4" class="disabled">
+                        <i class="selected-icon light-border-select-icon"></i>
+                      </div>
+                      <span>A. heels</span>
+                    </label>
+                    <label class="radio ">
+                      <div class="radio-button-wrapper disabled ">
+                        <input value="QrRU" type="radio" name="radio_field_4" class="disabled">
+                        <i class="selected-icon light-border-select-icon"></i>
+                      </div>
+                      <span>B. makeup</span>
+                    </label>
+                    <label class="radio ">
+                      <div class="radio-button-wrapper disabled exam-question-disabled">
+                        <input value="Y2VH" type="radio" name="radio_field_4" checked="" class="disabled">
+                        <i class="selected-icon light-border-select-icon"></i>
+                      </div>
+                      <span>C. dress</span>
+                        <span class="label pull-right answer-label gd-label-thin label-success">正确答案</span>
+                    </label>
+                    <label class="radio ">
+                      <div class="radio-button-wrapper disabled ">
+                        <input value="t7w7" type="radio" name="radio_field_4" class="disabled">
+                        <i class="selected-icon light-border-select-icon"></i>
+                      </div>
+                      <span>D. false eyelashes</span>
+                    </label>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="field field-text-field">
+          <div class="score-base-info">
+            <span>满分: 10分 得分: 10.0</span>
+          </div>
+          <div class="form-group answer-desc">
+            <div class="field-label-container">
+              <span class="field-label title">答案解析</span>
+            </div>
+            <div class="field-content">
+              <p></p><p>关于 Norwegian Air 出台的规定，新闻说：It seems that Norwegian Air requires female flight attendants to wear heels, or have a note from the doctor — other rules cover everything from makeup to false eyelashes. 其中提到了 heels（高跟鞋），makeup（化妆品），false eyelashes（假睫毛），没有提到的是选项 C dress。&nbsp;</p>
+<p></p>
+            </div>
+          </div>
+        </div>
+      </div>
+	</div>
+</div>
+
+      
+      
+      <div class="single-choice-component">
+	<div class="content-section exam-content-section">
+      <div class="section-header exam-section-header">
+        <div class="row">
+          <div class="col-md-11 col-sm-11 col-lg-11 col-xs-11">
+            <strong class="question-title">3.（词汇知识）在 Lala 老师周二讲解的关于“高空芭比”新闻中，“Air travel isn’t alone when it comes to chauvinistic grooming diktats.”下列哪一项是本句中 grooming 的正确含义？  </strong>
+          </div>
+          <div class="col-md-1 col-sm-1 col-lg-1 col-xs-1">
+            <div class="pull-right answer-control">
+              <span class="actual-score">+10</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section-body">
+        <div class="field field-radio-button ">
+          <div class="form-group">
+            <div class="field-content">
+              <div class="choices">
+                    <label class="radio ">
+                      <div class="radio-button-wrapper disabled ">
+                        <input value="jL5h" type="radio" name="radio_field_6" class="disabled">
+                        <i class="selected-icon light-border-select-icon"></i>
+                      </div>
+                      <span>A. 刷洗、梳毛</span>
+                    </label>
+                    <label class="radio ">
+                      <div class="radio-button-wrapper disabled exam-question-disabled">
+                        <input value="1ARD" type="radio" name="radio_field_6" checked="" class="disabled">
+                        <i class="selected-icon light-border-select-icon"></i>
+                      </div>
+                      <span>B. 打扮、装束</span>
+                        <span class="label pull-right answer-label gd-label-thin label-success">正确答案</span>
+                    </label>
+                    <label class="radio ">
+                      <div class="radio-button-wrapper disabled ">
+                        <input value="8psV" type="radio" name="radio_field_6" class="disabled">
+                        <i class="selected-icon light-border-select-icon"></i>
+                      </div>
+                      <span>C. 规定、命令</span>
+                    </label>
+                    <label class="radio ">
+                      <div class="radio-button-wrapper disabled ">
+                        <input value="j0lR" type="radio" name="radio_field_6" class="disabled">
+                        <i class="selected-icon light-border-select-icon"></i>
+                      </div>
+                      <span>D. 陈词滥调</span>
+                    </label>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="field field-text-field">
+          <div class="score-base-info">
+            <span>满分: 10分 得分: 10.0</span>
+          </div>
+          <div class="form-group answer-desc">
+            <div class="field-label-container">
+              <span class="field-label title">答案解析</span>
+            </div>
+            <div class="field-content">
+              <p></p><p>名词 grooming 有“（对动物进行的）刷洗、（人的）打扮、装束”的意思，本文语境下是指“装束、打扮”。&nbsp;</p>
+<p></p>
+            </div>
+          </div>
+        </div>
+      </div>
+	</div>
+</div>
+
+      
+      
+      <div class="single-choice-component">
+	<div class="content-section exam-content-section">
+      <div class="section-header exam-section-header">
+        <div class="row">
+          <div class="col-md-11 col-sm-11 col-lg-11 col-xs-11">
+            <strong class="question-title">4.（文章理解）在 Daniel 老师周三讲解的关于死后社交媒体账号的新闻中，以下哪项与文意不符？ </strong>
+          </div>
+          <div class="col-md-1 col-sm-1 col-lg-1 col-xs-1">
+            <div class="pull-right answer-control">
+              <span class="actual-score">+10</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section-body">
+        <div class="field field-radio-button ">
+          <div class="form-group">
+            <div class="field-content">
+              <div class="choices">
+                    <label class="radio ">
+                      <div class="radio-button-wrapper disabled ">
+                        <input value="ym88" type="radio" name="radio_field_7" class="disabled">
+                        <i class="selected-icon light-border-select-icon"></i>
+                      </div>
+                      <span>A. 计算机设备在默认状态下会去采集存储越来越多的数据资料</span>
+                    </label>
+                    <label class="radio ">
+                      <div class="radio-button-wrapper disabled ">
+                        <input value="KSOH" type="radio" name="radio_field_7" class="disabled">
+                        <i class="selected-icon light-border-select-icon"></i>
+                      </div>
+                      <span>B. 在未来，虽然数据越来越多，依然有足够的空间储存所有信息</span>
+                    </label>
+                    <label class="radio ">
+                      <div class="radio-button-wrapper disabled ">
+                        <input value="RUn0" type="radio" name="radio_field_7" class="disabled">
+                        <i class="selected-icon light-border-select-icon"></i>
+                      </div>
+                      <span>C. 存储空间不足时，超出容量的数据将不会被保留</span>
+                    </label>
+                    <label class="radio ">
+                      <div class="radio-button-wrapper disabled exam-question-disabled">
+                        <input value="k8El" type="radio" name="radio_field_7" checked="" class="disabled">
+                        <i class="selected-icon light-border-select-icon"></i>
+                      </div>
+                      <span>D. 超出存储空间可容量的数据全部都会借助人工智能技术清空处理</span>
+                        <span class="label pull-right answer-label gd-label-thin label-success">正确答案</span>
+                    </label>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="field field-text-field">
+          <div class="score-base-info">
+            <span>满分: 10分 得分: 10.0</span>
+          </div>
+          <div class="form-group answer-desc">
+            <div class="field-label-container">
+              <span class="field-label title">答案解析</span>
+            </div>
+            <div class="field-content">
+              <p></p><p>原文中提及“ That surplus data, either with the aid of artificial intelligence or human decision making will be jettisoned”，可见数据的清空处理方式有两种：既包括人工智能技术处理，也包括人力手动筛选处理。故 D 项与文意不符，为正确选项。</p>
+<p></p>
+            </div>
+          </div>
+        </div>
+      </div>
+	</div>
+</div>
+
+      
+      
+      <div class="single-choice-component">
+	<div class="content-section exam-content-section">
+      <div class="section-header exam-section-header">
+        <div class="row">
+          <div class="col-md-11 col-sm-11 col-lg-11 col-xs-11">
+            <strong class="question-title">5.（词汇知识）在毛西老师周四讲解的关于瑞幸咖啡的新闻中， 以下哪项是 reveal 的同义词？ </strong>
+          </div>
+          <div class="col-md-1 col-sm-1 col-lg-1 col-xs-1">
+            <div class="pull-right answer-control">
+              <span class="actual-score">+10</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section-body">
+        <div class="field field-radio-button ">
+          <div class="form-group">
+            <div class="field-content">
+              <div class="choices">
+                    <label class="radio ">
+                      <div class="radio-button-wrapper disabled exam-question-disabled">
+                        <input value="OlIs" type="radio" name="radio_field_18" checked="" class="disabled">
+                        <i class="selected-icon light-border-select-icon"></i>
+                      </div>
+                      <span>A. disclose</span>
+                        <span class="label pull-right answer-label gd-label-thin label-success">正确答案</span>
+                    </label>
+                    <label class="radio ">
+                      <div class="radio-button-wrapper disabled ">
+                        <input value="wbfJ" type="radio" name="radio_field_18" class="disabled">
+                        <i class="selected-icon light-border-select-icon"></i>
+                      </div>
+                      <span>B. file</span>
+                    </label>
+                    <label class="radio ">
+                      <div class="radio-button-wrapper disabled ">
+                        <input value="78oi" type="radio" name="radio_field_18" class="disabled">
+                        <i class="selected-icon light-border-select-icon"></i>
+                      </div>
+                      <span>C. wage</span>
+                    </label>
+                    <label class="radio ">
+                      <div class="radio-button-wrapper disabled ">
+                        <input value="fdSE" type="radio" name="radio_field_18" class="disabled">
+                        <i class="selected-icon light-border-select-icon"></i>
+                      </div>
+                      <span>D. viral</span>
+                    </label>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="field field-text-field">
+          <div class="score-base-info">
+            <span>满分: 10分 得分: 10.0</span>
+          </div>
+          <div class="form-group answer-desc">
+            <div class="field-label-container">
+              <span class="field-label title">答案解析</span>
+            </div>
+            <div class="field-content">
+              <p></p><p>reveal 和 disclose 都是表示“透露、揭露”的动词。file 做动词表示“提出申请”；viral 是形容词，表示“病毒的，像病毒般传播的”。因此答案为 A。</p>
+<p></p>
+            </div>
+          </div>
+        </div>
+      </div>
+	</div>
+</div>
+
+      
+      
+      <div class="single-choice-component">
+	<div class="content-section exam-content-section">
+      <div class="section-header exam-section-header">
+        <div class="row">
+          <div class="col-md-11 col-sm-11 col-lg-11 col-xs-11">
+            <strong class="question-title">6.（文章理解）在毛西老师周四讲解的关于瑞幸咖啡的新闻中， 以下哪个选项不是瑞幸咖啡的品牌策略？ </strong>
+          </div>
+          <div class="col-md-1 col-sm-1 col-lg-1 col-xs-1">
+            <div class="pull-right answer-control">
+              <span class="actual-score">+10</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section-body">
+        <div class="field field-radio-button ">
+          <div class="form-group">
+            <div class="field-content">
+              <div class="choices">
+                    <label class="radio ">
+                      <div class="radio-button-wrapper disabled ">
+                        <input value="8kYj" type="radio" name="radio_field_19" class="disabled">
+                        <i class="selected-icon light-border-select-icon"></i>
+                      </div>
+                      <span>A. 给消费者优惠补贴</span>
+                    </label>
+                    <label class="radio ">
+                      <div class="radio-button-wrapper disabled ">
+                        <input value="MzLM" type="radio" name="radio_field_19" class="disabled">
+                        <i class="selected-icon light-border-select-icon"></i>
+                      </div>
+                      <span>B. 快速的配送服务</span>
+                    </label>
+                    <label class="radio ">
+                      <div class="radio-button-wrapper disabled exam-question-disabled">
+                        <input value="NgOP" type="radio" name="radio_field_19" checked="" class="disabled">
+                        <i class="selected-icon light-border-select-icon"></i>
+                      </div>
+                      <span>C. 复制星巴克模式</span>
+                        <span class="label pull-right answer-label gd-label-thin label-success">正确答案</span>
+                    </label>
+                    <label class="radio ">
+                      <div class="radio-button-wrapper disabled ">
+                        <input value="zgXx" type="radio" name="radio_field_19" class="disabled">
+                        <i class="selected-icon light-border-select-icon"></i>
+                      </div>
+                      <span>D. 海量的宣传</span>
+                    </label>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="field field-text-field">
+          <div class="score-base-info">
+            <span>满分: 10分 得分: 10.0</span>
+          </div>
+          <div class="form-group answer-desc">
+            <div class="field-label-container">
+              <span class="field-label title">答案解析</span>
+            </div>
+            <div class="field-content">
+              <p></p><p>新闻中，瑞幸咖啡凭借着三大策略向传统咖啡行业宣战：generous subsidies（慷慨的补贴）, speedy delivery（快速的配送服务）以及 viral promotions on social media（在社交平台铺天盖地的宣传）。瑞幸咖啡的举措颠覆了包括星巴克在内的传统咖啡商的营业模式，因此 C 选项“复制星巴克模式”不属于瑞幸咖啡的品牌策略。</p>
+<p></p>
+            </div>
+          </div>
+        </div>
+      </div>
+	</div>
+</div>
+
+      
+      
+      <div class="single-choice-component">
+	<div class="content-section exam-content-section">
+      <div class="section-header exam-section-header">
+        <div class="row">
+          <div class="col-md-11 col-sm-11 col-lg-11 col-xs-11">
+            <strong class="question-title">7.（词汇知识）在雪梨老师周五讲解的关于斯坦福贿赂案的新闻中，以下哪个单词没有名词词性？ </strong>
+          </div>
+          <div class="col-md-1 col-sm-1 col-lg-1 col-xs-1">
+            <div class="pull-right answer-control">
+              <span class="actual-score">+10</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section-body">
+        <div class="field field-radio-button ">
+          <div class="form-group">
+            <div class="field-content">
+              <div class="choices">
+                    <label class="radio ">
+                      <div class="radio-button-wrapper disabled exam-question-disabled">
+                        <input value="gADi" type="radio" name="radio_field_8" checked="" class="disabled">
+                        <i class="selected-icon light-border-select-icon"></i>
+                      </div>
+                      <span>A. admit</span>
+                        <span class="label pull-right answer-label gd-label-thin label-success">正确答案</span>
+                    </label>
+                    <label class="radio ">
+                      <div class="radio-button-wrapper disabled ">
+                        <input value="dxua" type="radio" name="radio_field_8" class="disabled">
+                        <i class="selected-icon light-border-select-icon"></i>
+                      </div>
+                      <span>B. fraud</span>
+                    </label>
+                    <label class="radio ">
+                      <div class="radio-button-wrapper disabled ">
+                        <input value="PV6R" type="radio" name="radio_field_8" class="disabled">
+                        <i class="selected-icon light-border-select-icon"></i>
+                      </div>
+                      <span>C. host</span>
+                    </label>
+                    <label class="radio ">
+                      <div class="radio-button-wrapper disabled ">
+                        <input value="4qqB" type="radio" name="radio_field_8" class="disabled">
+                        <i class="selected-icon light-border-select-icon"></i>
+                      </div>
+                      <span>D. scheme</span>
+                    </label>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="field field-text-field">
+          <div class="score-base-info">
+            <span>满分: 10分 得分: 10.0</span>
+          </div>
+          <div class="form-group answer-desc">
+            <div class="field-label-container">
+              <span class="field-label title">答案解析</span>
+            </div>
+            <div class="field-content">
+              <p></p><p>fraud、host 和 scheme 都有名词含义：fraud 有“诈骗”的含义；host 有“主办方”的含义；scheme 有“计谋”的含义。而 admit 只用作动词，有“承认”或者“入取”的含义。admit 的名词形式是 admission。故正确答案是 A。</p>
+<p></p>
+            </div>
+          </div>
+        </div>
+      </div>
+	</div>
+</div>
+
+      
+      
+      <div class="single-choice-component">
+	<div class="content-section exam-content-section">
+      <div class="section-header exam-section-header">
+        <div class="row">
+          <div class="col-md-11 col-sm-11 col-lg-11 col-xs-11">
+            <strong class="question-title">8.（文章理解）在 Karen 老师周六讲解的关于男人看起来比女人自信的新闻中，which of the following statements is NOT derived from the article? </strong>
+          </div>
+          <div class="col-md-1 col-sm-1 col-lg-1 col-xs-1">
+            <div class="pull-right answer-control">
+              <span class="actual-score">+10</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section-body">
+        <div class="field field-radio-button ">
+          <div class="form-group">
+            <div class="field-content">
+              <div class="choices">
+                    <label class="radio ">
+                      <div class="radio-button-wrapper disabled ">
+                        <input value="Cej3" type="radio" name="radio_field_20" class="disabled">
+                        <i class="selected-icon light-border-select-icon"></i>
+                      </div>
+                      <span>A. 与优秀男生接触越多的女生获得学士学位的机会越小</span>
+                    </label>
+                    <label class="radio ">
+                      <div class="radio-button-wrapper disabled exam-question-disabled">
+                        <input value="dw4l" type="radio" name="radio_field_20" checked="" class="disabled">
+                        <i class="selected-icon light-border-select-icon"></i>
+                      </div>
+                      <span>B. 与优秀男生接触越多的女生对自己的外貌感到越不自信</span>
+                        <span class="label pull-right answer-label gd-label-thin label-success">正确答案</span>
+                    </label>
+                    <label class="radio ">
+                      <div class="radio-button-wrapper disabled ">
+                        <input value="BHUC" type="radio" name="radio_field_20" class="disabled">
+                        <i class="selected-icon light-border-select-icon"></i>
+                      </div>
+                      <span>C. 女学生的自信心较低，而且她们的志向明显较弱</span>
+                    </label>
+                    <label class="radio ">
+                      <div class="radio-button-wrapper disabled ">
+                        <input value="Ly25" type="radio" name="radio_field_20" class="disabled">
+                        <i class="selected-icon light-border-select-icon"></i>
+                      </div>
+                      <span>D. 女性更倾向于用狭义的词</span>
+                    </label>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="field field-text-field">
+          <div class="score-base-info">
+            <span>满分: 10分 得分: 10.0</span>
+          </div>
+          <div class="form-group answer-desc">
+            <div class="field-label-container">
+              <span class="field-label title">答案解析</span>
+            </div>
+            <div class="field-content">
+              <p></p><p>文中并没有提到“与优秀男生接触越多的女生对自己的外貌感到越不自信”这一论断。</p>
+<p></p>
+            </div>
+          </div>
+        </div>
+      </div>
+	</div>
+</div>
+
+      
+      
+      <div class="single-choice-component">
+	<div class="content-section exam-content-section">
+      <div class="section-header exam-section-header">
+        <div class="row">
+          <div class="col-md-11 col-sm-11 col-lg-11 col-xs-11">
+            <strong class="question-title">9.（词汇知识）在 Zurini 老师周日讲解的关于《成为》的新闻中， 我们学习了名词 title，以下哪一项中 title 的用法与新闻中相同？ </strong>
+          </div>
+          <div class="col-md-1 col-sm-1 col-lg-1 col-xs-1">
+            <div class="pull-right answer-control">
+              <span class="actual-score">+10</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section-body">
+        <div class="field field-radio-button ">
+          <div class="form-group">
+            <div class="field-content">
+              <div class="choices">
+                    <label class="radio ">
+                      <div class="radio-button-wrapper disabled exam-question-disabled">
+                        <input value="CAMU" type="radio" name="radio_field_21" checked="" class="disabled">
+                        <i class="selected-icon light-border-select-icon"></i>
+                      </div>
+                      <span>A. The company publishes twenty new titles a year.</span>
+                        <span class="label pull-right answer-label gd-label-thin label-success">正确答案</span>
+                    </label>
+                    <label class="radio ">
+                      <div class="radio-button-wrapper disabled ">
+                        <input value="yEFA" type="radio" name="radio_field_21" class="disabled">
+                        <i class="selected-icon light-border-select-icon"></i>
+                      </div>
+                      <span>B. His poems were published under the title of "Love and Reason".</span>
+                    </label>
+                    <label class="radio ">
+                      <div class="radio-button-wrapper disabled ">
+                        <input value="97AV" type="radio" name="radio_field_21" class="disabled">
+                        <i class="selected-icon light-border-select-icon"></i>
+                      </div>
+                      <span>C. What's your job title now?</span>
+                    </label>
+                    <label class="radio ">
+                      <div class="radio-button-wrapper disabled ">
+                        <input value="8Qi0" type="radio" name="radio_field_21" class="disabled">
+                        <i class="selected-icon light-border-select-icon"></i>
+                      </div>
+                      <span>D. The author's name was printed below the title.</span>
+                    </label>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="field field-text-field">
+          <div class="score-base-info">
+            <span>满分: 10分 得分: 10.0</span>
+          </div>
+          <div class="form-group answer-desc">
+            <div class="field-label-container">
+              <span class="field-label title">答案解析</span>
+            </div>
+            <div class="field-content">
+              <p></p><p>原文中 title 作为名词，表示“（书的）一种，一本”，B、D 选项中 title 表示“题目；标题”，C 选项中表示“称号，职称”，而 A 选项与原文中的用法相同，故 A 选项正确。</p>
+<p></p>
+            </div>
+          </div>
+        </div>
+      </div>
+	</div>
+</div>
+
+      
+      
+      <div class="single-choice-component">
+	<div class="content-section exam-content-section">
+      <div class="section-header exam-section-header">
+        <div class="row">
+          <div class="col-md-11 col-sm-11 col-lg-11 col-xs-11">
+            <strong class="question-title">10.（文章理解）在 Zurini 老师周日讲解的关于《成为》的新闻中，以下哪一项对新闻内容理解不正确？ </strong>
+          </div>
+          <div class="col-md-1 col-sm-1 col-lg-1 col-xs-1">
+            <div class="pull-right answer-control">
+              <span class="actual-score">+10</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section-body">
+        <div class="field field-radio-button ">
+          <div class="form-group">
+            <div class="field-content">
+              <div class="choices">
+                    <label class="radio ">
+                      <div class="radio-button-wrapper disabled ">
+                        <input value="EDgz" type="radio" name="radio_field_22" class="disabled">
+                        <i class="selected-icon light-border-select-icon"></i>
+                      </div>
+                      <span>A. 米歇尔·奥巴马在英国皇家节日音乐厅现场首秀的门票在几分钟之内售罄</span>
+                    </label>
+                    <label class="radio ">
+                      <div class="radio-button-wrapper disabled ">
+                        <input value="WJBQ" type="radio" name="radio_field_22" class="disabled">
+                        <i class="selected-icon light-border-select-icon"></i>
+                      </div>
+                      <span>B. 米歇尔·奥巴马的自传《成为》已被翻译成多种语言在全球同时出版</span>
+                    </label>
+                    <label class="radio ">
+                      <div class="radio-button-wrapper disabled exam-question-disabled">
+                        <input value="0hvl" type="radio" name="radio_field_22" checked="" class="disabled">
+                        <i class="selected-icon light-border-select-icon"></i>
+                      </div>
+                      <span>C. 米歇尔·奥巴马的自传《成为》是现代出版史上最成功的回忆录</span>
+                        <span class="label pull-right answer-label gd-label-thin label-success">正确答案</span>
+                    </label>
+                    <label class="radio ">
+                      <div class="radio-button-wrapper disabled ">
+                        <input value="oHCa" type="radio" name="radio_field_22" class="disabled">
+                        <i class="selected-icon light-border-select-icon"></i>
+                      </div>
+                      <span>D. 企鹅兰登书屋赢得了奥巴马夫妇自传的出版权</span>
+                    </label>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="field field-text-field">
+          <div class="score-base-info">
+            <span>满分: 10分 得分: 10.0</span>
+          </div>
+          <div class="form-group answer-desc">
+            <div class="field-label-container">
+              <span class="field-label title">答案解析</span>
+            </div>
+            <div class="field-content">
+              <p></p><p>原文中提到“Becoming is on track to become the most successful memoir in modern publishing history.”《成为》有希望，而不是已经成为现代出版史上最成功的回忆录，与 C 选项不符，故 C 选项错误。</p>
+<p></p>
+            </div>
+          </div>
+        </div>
+      </div>
+	</div>
+</div>
+
+      
+      
+</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<iframe id="blockbyte-bs-sidebar" class="notranslate" __idm_frm__="77" data-pos="left" src="./流利阅读 5.06--5.12 小测试_files/saved_resource.html"></iframe><div id="blockbyte-bs-indicator" style="width: 2px; height: 10%; top: 0.7%;"></div></body></html>
